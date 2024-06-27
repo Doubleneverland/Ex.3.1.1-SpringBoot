@@ -14,7 +14,7 @@ public interface UserService {
 
     List<User> userPage(long id);
 
-    User delete(long id);
+    void delete(long id);
 
     User update(long id, String name, String lastname);
 
